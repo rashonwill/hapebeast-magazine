@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.02rem;
+}
+
+
+body{
+  width: auto;
+  height: auto;
+  background: black;
+}
+
+.container{
+  width: 60rem;
+  height: 40rem;
+  margin: 1rem auto;  
+}
+
+.background{
+  width: 60rem;
+  height: 38rem;
+  margin: 1rem auto;
+  background-color:hsla(0,0%,0%,1);
+background-image:
+radial-gradient(at 95% 100%, hsla(30,85%,41%,0.68) 0px, transparent 50%),
+radial-gradient(at 7% 10%, hsla(30,85%,41%,0.35) 0px, transparent 50%);
+  position: absolute;
+}
+
+.content{
+  width: 60rem;
+  height: 40rem;
+  margin: 1rem auto;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  z-index: 1;
+  backdrop-filter: blur(8px);
+  box-shadow: inset 2px 2px 4px #6a6a6a, inset -2px -2px 4px #050606;
+}
+
+.content img{
+  width: 150%;
+  height: 245%;
+  position: absolute;
+  top: -75%;
+  left: -25%;
+
+}
+
+
+.cover{
+  display: flex;
+}
+
+
+.cover-second{
+  display: flex;
+  margin-top: 50px;
+}
+
+#ape{
+  width: 30rem;
+  height: 20rem;
+  posiiton: absolute;
+  margin: 1rem auto;
+}
+
+
+
+.container h1{
+  font-family: 'Fredoka One';
+  color: rgba(226, 116, 41, 0.9);
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 60px;
+}
+
+.container h5{
+  font-family: 'Fredoka One';
+  color: rgba(255, 255, 255, .4);
+  text-align: center;
+  
+}
+
+.container small{
+  font-size: 14px;
+  color: rgba(255, 255, 255, .2);;
+}
+
+
+.card{
+  width: 25rem;
+  height: 8rem;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 2rem;
+  z-index: 1;
+}
+
+.card h4{
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Anton';
+  letter-spacing: 0.05rem;
+}
+
+
+.card.headline-one strong{
+  font-size: 40px;
+}
+
+.card.headline-one em{
+  font-size: 30px;
+  margin: .5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.barcode{
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  background: rgba(255, 255, 255, .8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-barcode{
+  color: rgba(0, 0, 0, 1);
+  font-size: 60px;
+}
+
+.fa{
+  display: flex;
+}
+
+.barcode ul{
+  list-style-type: none;
+  display: flex;
+  
+}
